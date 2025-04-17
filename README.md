@@ -32,6 +32,26 @@ Bu proje, .NET 8 ve [Hangfire](https://www.hangfire.io/) kullanarak zamanlanmı�
 dotnet restore
 
 
+2. SQL Server bağlantısını ayarla
+
+appsettings.json veya Program.cs içindeki connection string’i kendi SQL Server bilgilerine göre güncelle:
+
+"Server=localhost;Database=HangfireDb;Trusted_Connection=True;"
+
+SQL Server'ın kurulu ve çalışıyor olması gerekir.
+
+
+
+3. Uygulamayı çalıştır
+dotnet run
+Uygulama açıldığında Hangfire Dashboard aşağıdaki adresten erişilebilir olacaktır:
+
+
+📁 HangfireJobApp
+├── Program.cs
+├── appsettings.json
+└── README.md
+
 ---
 
 Hazırsan bu `README.md` dosyasını projeye ekleyebilirsin.  
