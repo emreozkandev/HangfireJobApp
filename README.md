@@ -36,7 +36,7 @@ dotnet restore
 
 appsettings.json veya Program.cs içindeki connection string’i kendi SQL Server bilgilerine göre güncelle:
 
-"Server=localhost;Database=HangfireDb;Trusted_Connection=True;"
+"Server=.;Database=HangfireDb;Trusted_Connection=True;"
 
 SQL Server'ın kurulu ve çalışıyor olması gerekir.
 
@@ -45,6 +45,7 @@ SQL Server'ın kurulu ve çalışıyor olması gerekir.
 3. Uygulamayı çalıştır
 dotnet run
 Uygulama açıldığında Hangfire Dashboard aşağıdaki adresten erişilebilir olacaktır:
+http://localhost:{port}/hangfire
 
 
 📁 HangfireJobApp
