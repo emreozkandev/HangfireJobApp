@@ -55,8 +55,5 @@ http://localhost:{port}/hangfire
 
 ---
 
-Hazırsan bu `README.md` dosyasını projeye ekleyebilirsin.  
-İstersen terminalden şu komutla oluşturabilirsin:
 
 ```bash
-echo "# README" > README.md
